@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+    harken-bot:
+        container_name: harken-bot
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - ./data:/data
+        ports:
+            - '3000:3000'
+        env_file:
+            - .env
+        restart: always

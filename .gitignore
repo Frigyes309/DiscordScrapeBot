@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript build output
+dist/
+output/
+
+# Collected data
+data/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Dependency directories
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE/editor configuration files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Ignore coverage reports
+coverage/
+
+# Ignore built files
+build/
+
+# Ignore test-related files
+test-results/
